@@ -1,4 +1,5 @@
 const path = require("path");
+let friendsList = require("../data/friends.js");
 
 module.exports = function (app) {
 
@@ -6,10 +7,4 @@ module.exports = function (app) {
         return res.json(friendsList);
     });
 
-    app.post("/api/friends", function (req, res) {
-        var friend = req.body;
-        friends.push(friend);
-        res.json(friend);
-    });
-
-}
+};
