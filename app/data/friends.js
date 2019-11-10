@@ -3,23 +3,23 @@ const path = require("path");
 let friends = [
     {
         "name": "Dylan T.",
-        "photo": "",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6RqzBuoFSl6JYIYrSI09pAp9LO1fkiarImo1X-8FVErn9f6Bb3g&s",
         "scores": [
-            5,
-            1,
-            4,
-            4,
-            5,
-            1,
+            3,
             2,
-            5,
+            1,
             4,
-            1
+            5,
+            5,
+            3,
+            2,
+            2,
+            5
         ]
     }, 
     {
         "name": "Chris T.",
-        "photo": "",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqrCmfmW7IJiyXgnP_Yd59P7ue2n0VzAKXMGyjWLZAgPYHtjnF&s",
         "scores": [
             5,
             3,
@@ -35,7 +35,7 @@ let friends = [
     },
     {
         "name": "Brady T.",
-        "photo": "",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRES_NzeOo5wWs0jL8DMWZ5HOEIsrbebn2RaUz0AK68jy8-5J8r&s",
         "scores": [
             4,
             4,
@@ -51,7 +51,7 @@ let friends = [
     },
     {
         "name": "Logan M.",
-        "photo": "",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDE-7-2HpirwIVmQdIul0gjdPEU2qr9FnjN5jxUAPoM6e5ovSy&s",
         "scores": [
             3,
             4,
@@ -67,7 +67,7 @@ let friends = [
     },
     {
         "name": "Kody M.",
-        "photo": "",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPdmQg2oaF8TDXDCsMdaF2TnYx4OpZBkgv6JN-1viJjUKv_3hc&s",
         "scores": [
             4,
             4,
