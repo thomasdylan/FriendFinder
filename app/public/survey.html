@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!-- Font Awesome Glyphicons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
     <title>Friend Finder Survey</title>
 </head>
 
@@ -21,125 +24,129 @@
 
         <h3>About You</h3>
         <h4>Name (Required)</h4>
-        <input type="text" id="name" class="form-control" required>
-        <h4>Photo</h4>
-        <input type="text" id="photo" class="form-control">
+        <input type="text" id="name" class="form-control" autocomplete="off" required>
+        <h4>Photo Link</h4>
+        <input type="text" id="photo" class="form-control" autocomplete="off">
 
         <hr>
 
         <form>
             <div class="form-group">
 
-                <label for="question1">Example select</label>
+                <label for="question1">You like people.</label>
                 <select class="form-control" id="question1">
-                    <option>1 (Strongly Disagree)</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5 (Strongly Agree)</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
                 </select>
 
                 <hr>
 
-                <label for="question2">Example select</label>
+                <label for="question2">When people talk you get annoyed.</label>
                 <select class="form-control" id="question2">
-                    <option>1 (Strongly Disagree)</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5 (Strongly Agree)</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
                 </select>
 
                 <hr>
 
-                <label for="question3">Example select</label>
+                <label for="question3">You mock people who confide in you behind their backs.</label>
                 <select class="form-control" id="question3">
-                    <option>1 (Strongly Disagree)</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5 (Strongly Agree)</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
                 </select>
 
                 <hr>
 
-                <label for="question4">Example select</label>
+                <label for="question4">You judge people without reason.</label>
                 <select class="form-control" id="question4">
-                    <option>1 (Strongly Disagree)</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5 (Strongly Agree)</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
                 </select>
 
                 <hr>
 
-                <label for="question5">Example select</label>
+                <label for="question5">If somebody wrongs you the first thought you have is revenge.</label>
                 <select class="form-control" id="question5">
-                    <option>1 (Strongly Disagree)</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5 (Strongly Agree)</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
                 </select>
 
                 <hr>
 
-                <label for="question6">Example select</label>
+                <label for="question6">You'd rather be around dogs than people.</label>
                 <select class="form-control" id="question6">
-                    <option>1 (Strongly Disagree)</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5 (Strongly Agree)</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
                 </select>
 
                 <hr>
 
-                <label for="question7">Example select</label>
+                <label for="question7">You believe everyone is out to get you.</label>
                 <select class="form-control" id="question7">
-                    <option>1 (Strongly Disagree)</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5 (Strongly Agree)</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
                 </select>
 
                 <hr>
 
-                <label for="question8">Example select</label>
+                <label for="question8">You enjoy chaos.</label>
                 <select class="form-control" id="question8">
-                    <option>1 (Strongly Disagree)</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5 (Strongly Agree)</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
                 </select>
 
                 <hr>
 
-                <label for="question9">Example select</label>
+                <label for="question9">You ignore phone calls from friends to avoid going out.</label>
                 <select class="form-control" id="question9">
-                    <option>1 (Strongly Disagree)</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5 (Strongly Agree)</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
                 </select>
 
                 <hr>
 
-                <label for="question10">Example select</label>
+                <label for="question10">Not leaving your house sounds like a great weekend.</label>
                 <select class="form-control" id="question10">
-                    <option>1 (Strongly Disagree)</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5 (Strongly Agree)</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
                 </select>
             </div>
 
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <div class="alert alert-danger" role="alert" id="form-warning">
+                Enter all required fields.
+            </div>
+            <button type="submit" class="btn btn-primary" id="submit" data-toggle="modal"
+                data-target="#results-modal">Submit</button>
         </form>
 
         <br />
@@ -147,17 +154,76 @@
 
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+    <div class="modal fade" id="results-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">New Best Friend</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h2 id="match-name"></h2>
+                    <img id="match-img" src="" alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- Optional JavaScript -->
+     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+     <script src="https://code.jquery.com/jquery-3.4.1.js"
+         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+     </script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+     </script>
+
+
+    <script type="text/javascript">
+        $("#form-warning").hide();
+
+        $("#submit").on("click", function (e) {
+            e.preventDefault();
+            if ($("#name").val() === "") {
+                $("#name").css("border-color", "red");
+                $("#form-warning").show();
+                return false;
+            }
+            var newFriend = {
+                name: $("#name").val().trim(),
+                photo: $("#photo").val().trim(),
+                scores: [
+                    $("#question1").val(),
+                    $("#question2").val(),
+                    $("#question3").val(),
+                    $("#question4").val(),
+                    $("#question5").val(),
+                    $("#question6").val(),
+                    $("#question7").val(),
+                    $("#question8").val(),
+                    $("#question9").val(),
+                    $("#question10").val(),
+                ]
+            };
+
+            console.log(newFriend);
+
+            $.post("/api/friends", newFriend, function (data) {
+                $("#match-name").text(data.name);
+                $("#match-img").attr("src", data.photo);
+                $("#results-modal").modal("toggle");
+            });
+
+        });
+    </script>
 </body>
 
 </html>
