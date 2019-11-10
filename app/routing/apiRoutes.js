@@ -7,7 +7,7 @@ module.exports = function (app) {
     });
 
     app.post("/api/friends", function(req, res) {
-        var friend = friendsList[0].name;
+        var friend = friendsList[0];
         var totalDifference = 0;
         var difference = 1000;
         var scores = req.body.scores;
@@ -18,13 +18,13 @@ module.exports = function (app) {
                 totalDifference += Math.abs(parseInt(scores[j]) - parseInt(friendsList[i].scores[j]));
             };
             if(totalDifference < difference) {
-                friend = friendsList[i].name;
+                friend = friendsList[i];
                 difference = totalDifference;
             };
         };
 
-        console.log(friend);
         friendsList.push(req.body);
+        return res.json(friend);
     });
 
     
