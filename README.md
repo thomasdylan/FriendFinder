@@ -2,7 +2,9 @@
 
 Friend Finder allows users to connect with new
 friends based on an in depth survey that matches
-you up to a compatible friend!
+you up to a compatible friend!  
+You can use the site through this link.  
+https://boiling-tor-06703.herokuapp.com/  
 
 ## How it works
 
